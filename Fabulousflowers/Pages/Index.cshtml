@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Fabulous Flowers</h1>
+    <p>The time on the server is @DateTime.Now</p>
+</div>
+
+    <div class="her">
+        <div class="hero-text">
+            <h1>Fabulous Flowers </h1>
+            <h4>Are you looking for a way to express your love, gratitude, sympathy, or celebration with beautiful flowers? Look no further than Fabulous Flowers, the online store that delivers fresh and fragrant blooms to your doorstep, anywhere in the world! </h4>
+            
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="wrapper">
+            <div class="form-wrapper">
+                <h4>Add More flowers To Your Email</h4>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                    <input type="submit" id="submit" value="OK" class="submit">
+                </form>
+            </div>
+            <div class="contact-wrapper">
+                <h4>Stay In Touch With Fablous Flower</h4>
+                <a class="contact-footer contact-tel" href="#"><i class="fa fa-phone" aria-hidden="true"></i>+251-9-30303030</a>
+                <a class="contact-footer contact-email" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Call Us</a>
+            </div>
